@@ -11,6 +11,8 @@ entity HalfAdder_1 is
 end entity;
 
 architecture struct of HalfAdder_1 is
+	--The code for the below code is uploaded in my repository named XOR_using_NAND.
+	--If you dont want to use this component you can directly use XOR_2 component already present in the Gates package.
 	component XOR_1 is
 		port(in1,in2:in std_logic;
 			out1:out std_logic);
